@@ -1,0 +1,142 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    font-size: 10px;
+    font-weight: 600;
+/*    background-image: url("../img/unsplash.jpeg");*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* hide the results and details by default */
+#results, #details {
+display: none;
+}
+
+section {
+    background: #FFF;
+    width: 20vw !important;
+    padding: 20px;
+    display: inline-block;
+    overflow: none;
+    float: left;    
+}
+/* select the img with an id="logo" */
+/* img#logo find an img with an id="logo" */
+/* img #logo find an img, then inside it find another element with an id="logo" */
+img#logo {
+    margin: auto;
+    width: 50%;
+    display: block; /* img by default is an "inline" element, so without this line it wouldn't centre */
+}
+
+/* apply the following styles to both the select and the button elements... notice the comma in between them */
+select {
+    width: 100%;
+    background-color: #dedede;
+    color: black;
+    font-size: 14px;
+    height: 30px;
+}
+
+button {
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button
+{
+    cursor: pointer;
+}
+
+#results ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#results li {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background 0.5s;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#results li:hover {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+#results img {
+    max-width: 8rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#results h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: calc(8rem + 10px);
+    line-height: 1;
+    font-size: 1.5rem;
+    padding-bottom: calc(8rem - 1.5rem - 10px);
+}
+
+#map {
+    float: right;
+    width: 77vw;
+    height: 100vh;
+    display: inline-block;
+    position: absolute;
+}
+
+.marker {
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #000;
+/*  transform: translate(10px, 20px, 0);*/
+}
+
+.marker.user
+{
+   background-color: #000; 
+}
+
+.marker.free
+{
+    background-color: #000;
+}
+
+.marker.paid
+{
+    background-color: #000;
+}
+
+.back {
+    margin-bottom: 20px;
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+#padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#skills, #pets {
+    border-color: #dedede;
+}
+
